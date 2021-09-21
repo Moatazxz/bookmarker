@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: calc(2.6rem + .6vw);
+    opacity: .9;
+}
+
+h5 {
+    font-family: monospace;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}
+
+.sites {
+    transition: transform 1s;
+    color: white;
+}
+
+.sites input {
+    width: 22px;
+    height: 22px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: rgba(13, 110, 253, .85);
+}
+
+.sites:hover {
+    transform: translatey(-3px);
+}
+
+.shap {
+    width: 50px;
+    height: 50px;
+}
